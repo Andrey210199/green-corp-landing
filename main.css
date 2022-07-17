@@ -80,5 +80,11 @@ button{
 
 .about__panel{
   width: 500px;
+}
 
+.form__container{
+  width: 550px;
+}
+.form__group{
+  display: grid;
 }

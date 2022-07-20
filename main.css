@@ -38,6 +38,7 @@ button{
   cursor: pointer;
   box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
   padding: 15px;
+  transition: background-color, 0.3s, easy-in;
 }
 
 /*Тело сайта*/
@@ -81,10 +82,91 @@ button{
 .about__panel{
   width: 500px;
 }
+.form{
+  background-color: #1D263A;
+  color: #fff;
+  padding: 115px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 
+.form h1{
+  font-size: 48px;
+}
+
+.forp p{
+  font-size: 18px;
+  opacity: 0.65;
+}
 .form__container{
   width: 550px;
 }
+
 .form__group{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form form{
   display: grid;
+  grid-gap: 20px;
+  margin-top: 60px;
+  font-size: 18px;
+}
+
+.form label{
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.form input, .form select{
+  color: #213053;
+  height: 60px;
+  padding: 0 20px;
+  border: 0;
+  border-radius: 15px;
+  appearance: none;
+  outline: none;
+}
+
+.form__submit{
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+button:hover{
+  background-color: #f6980c;
+  box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+}
+
+footer{
+  padding: 90px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer__container{
+  display: flex;
+  justify-content: center;
+  gap:80px;
+}
+
+.footer__copyright{
+  padding-top: 40px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.footer__group h3{
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.footer__links{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }

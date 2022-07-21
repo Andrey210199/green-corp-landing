@@ -1,0 +1,5 @@
+/*Анимация about__sun-img*/
+@keyframes rotation {
+  0%{transtorm: rotate(0);}
+  100%{transform: rotate(360deg);}
+}

@@ -3,3 +3,8 @@
   0%{transtorm: rotate(0);}
   100%{transform: rotate(360deg);}
 }
+
+.animate__animated.animate__fadeInRight, .animate__animated.animate__fadeInLeft {
+  --animate-duration: 2s;
+  --animate-repeat: 1;
+}

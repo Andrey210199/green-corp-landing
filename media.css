@@ -1,0 +1,69 @@
+/*Телефон*/
+@media (max-width: 720px) {
+
+.about, .form, footer{
+  padding: 50px 10px 50px 10px;
+
+}
+header{
+  padding: 10px;
+}
+header a{
+  margin-right: 15px;
+}
+.footer__container{
+  gap: 40px;
+  flex-direction: column;
+}
+
+
+.header__logo{
+  height: 20px;
+}
+
+.about h1{
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.about__sun-img{
+  width: 75px;
+}
+
+.about__panel{
+  width: 280px;
+}
+
+}
+
+/*Пленшет*/
+@media (max-width: 1024px) {
+  .about, .form, footer{
+      padding: 50px 20px 50px 20px;
+
+  }
+  header{
+    padding: 10px;
+  }
+  header a{
+    margin-right: 15px;
+  }
+  .footer__container{
+    flex-direction: row;
+    gap: 40px;
+  }
+
+
+  .about h1{
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .about__sun-img{
+    width: 75px;
+  }
+
+  .about__panel{
+    width: 280px;
+  }
+}

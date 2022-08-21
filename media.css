@@ -34,6 +34,45 @@ header a{
   width: 280px;
 }
 
+/*Feature*/
+.features{
+  padding: 50px 10px;
+}
+
+.features__cards{
+  grid-template-columns: auto;
+}
+
+.features__feedback{
+  flex-direction: column;
+}
+
+.features__feedback-left{
+  padding-right: 0;
+}
+
+.features__feedback-left h2{
+  font-size: 36px;
+}
+
+.features__feedback-right{
+  flex-direction: column;
+  align-self: auto;
+}
+
+.features__box h3{
+  font-size:  36px;
+}
+
+/*Promo*/
+.promo{
+  flex-direction: column-reverse;
+}
+
+.promo__right{
+  padding: 50px 10px;
+}
+
 }
 
 /*Пленшет*/

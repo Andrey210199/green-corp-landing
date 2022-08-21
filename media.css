@@ -105,4 +105,12 @@ header a{
   .about__panel{
     width: 280px;
   }
+
+  .promo{
+    flex-direction: column-reverse;
+  }
+  
+  .promo__right{
+    padding: 50px 10px;
+  }
 }

@@ -224,10 +224,12 @@ font-weight: 600;
   display: flex;
 }
 .promo__img{
-  width: 100%;
+  width: 50%;
   min-height: 500px;
   background-image: url(img/promo.jpg);
+  flex-shrink: 0;
   background-size: cover;
+  background-position: center;
 
 }
 

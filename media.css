@@ -72,6 +72,9 @@ header a{
 .promo__right{
   padding: 50px 10px;
 }
+.promo__img{
+  width: 100%;
+}
 
 }
 
@@ -112,5 +115,8 @@ header a{
   
   .promo__right{
     padding: 50px 10px;
+  }
+  .promo__img{
+    width: 100%;
   }
 }

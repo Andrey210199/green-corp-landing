@@ -83,6 +83,7 @@ font-weight: 600;
   background-position: center;
   background-size: cover;
   flex-wrap: wrap-reverse;
+  position: relative;
 }
 
 .about_info{
@@ -108,6 +109,15 @@ font-weight: 600;
 
 .about__panel{
   width: 500px;
+}
+
+.orb-canvas{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 /*Информация*/

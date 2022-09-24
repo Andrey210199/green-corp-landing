@@ -80,5 +80,3 @@ window.addEventListener("scroll", updateScroll);
 
 document.querySelectorAll("a[href^='#']").forEach(elem=> addSmoothSkroll(elem));
 document.querySelectorAll("button[href^='#']").forEach(elem=> addSmoothSkroll(elem));
-//Перезагрузка страницы в случае изменения размера окна браузера
-addEventListener("resize", function(){location.reload(); });

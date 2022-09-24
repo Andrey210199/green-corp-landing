@@ -91,4 +91,6 @@ class CanvasBackground{
 
 let canvas =new CanvasBackground("orb-canvas");
 canvas.start();
+//Перезагрузка функции в случае изменения размера окна браузера
+addEventListener("resize", canvas.start());
 

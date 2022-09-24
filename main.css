@@ -10,10 +10,18 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  position: sticky;
+  position: fixed;
+  left: 0;
+  right: 0;
   top: 0;
-  background-color: #fff;
+  background-color: transparent;
+  transition: 0.25s ease;
   z-index: 1;
+}
+
+.header__scrolled{
+  background-color: #fff;
+  box-shadow: 0 12px 34px -11px rgb(65 62 101 / 10%);
 }
 
 .header__logo{
@@ -32,7 +40,7 @@ header a{
 }
 
 /*Кнопки*/
-button{
+.button{
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   color: #fff;
@@ -45,14 +53,14 @@ button{
   transition: background-color, 0.3s, easy-in;
 }
 
-.about button{
+.about .button{
   font-size: 18px;
   border-radius: 20px;
   padding: 20px 25px;
   margin: 20px;
 }
 
-button:hover{
+.button:hover{
   background-color: #f6980c;
   box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
 }
@@ -69,16 +77,12 @@ font-weight: 600;
   font-weight: 600;
 }
 
-.promo__button button:hover{
-  background-color: #f6980c;
-}
-
 /*Тело сайта*/
 .about{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 115px 0;
+  padding: 200px 0;
   background: url('img/back.png') no-repeat;
   background-position: center;
   background-size: cover;

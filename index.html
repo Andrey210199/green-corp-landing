@@ -26,8 +26,8 @@
 
       <div class="header__control">
 
-        <a href="#contacts">Контакты</a>
-        <button>Заказать</button>
+        <a href="#form">Контакты</a>
+        <button class="button">Заказать</button>
 
       </div>
 
@@ -41,7 +41,7 @@
 
         <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
 
-        <button>Узнать подробнее <i class="fa-solid fa-angle-right"></i></button>
+        <button class="button more-button" href ="#features">Узнать подробнее <i class="fa-solid fa-angle-right"></i></button>
 
       </div>
 
@@ -95,8 +95,9 @@
       <div class="features__feedback">
 
         <div class="features__feedback-left">
-          <h2>Нам доверяет 5000+ счастливых клиентов. 
-            <br>5000+ счастливых клиентов</h2>
+          <h2>Нам доверяет
+            <div class="features__clients-count">5000+</div> 
+            счастливых клиентов.</h2>
             <p>Мы помогли тысячам людей перейти на зеленую энергию.
               <br>После заказа мы позаботимся обо всем: доставка 
               панелей, проект, установка, помощь в использовании.
@@ -144,7 +145,7 @@
             режиме реального времени и настраивайте процент
              расхода и накопления энергии.</p>
              <div class="promo__button">
-              <button>Заказать <i class="fa-solid fa-chevron-right"></i></button>
+              <button class="button">Заказать <i class="fa-solid fa-chevron-right"></i></button>
              </div>
         </div>
 
@@ -153,7 +154,7 @@
     </section>
 
     <!--Форма сайта-->
-    <section class="form">
+    <section class="form" id="form">
       <div class="form__container">
         <h1>Оставьте свои контакты</h1>
         <p>Поможем подобрать модель. Выбрать удобный
@@ -180,11 +181,11 @@
                  <option value="10-30">10 000₽ – 30 000₽</option>
                  <option value="30-60">30 000₽ – 60 000₽</option>
                  <option value="60-100">60 000₽ – 100 000₽</option>
-                 <option value="100+">100 000₽</option>
+                 <option value="other">Другое</option>
                </select>
 
              </div>
-             <button type="submit" class="form__submit">Отправить заявку</button>
+             <button type="submit" class="button form__submit">Отправить заявку</button>
            </form>
       </div>
     </section>
@@ -226,6 +227,7 @@
 
     </footer>
 <script src="js/canvas.js"></script>
+<script src="js/animations.js"></script>
   </body>
 
 </html>
